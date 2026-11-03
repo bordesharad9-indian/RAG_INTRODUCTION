@@ -1,15 +1,13 @@
-
-# Python virtual environment
+# Python virtual environments
 venv/
 .venv/
 env/
+ENV/
 
-
-
-# Environment variables
+# Environment variables and secret files
 .env
+.env.*
+*.env
 
-
-
-
-
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
